@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Have A Good Time ❤️</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<audio id="bgMusic" loop>
+    <source src="davido-kante-official-video-ft-fave-3bfpdfwren0_XvbR3iJh.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+</audio>
+
+<!-- PASSCODE PAGE -->
+<div class="page active" id="page1">
+    <div class="card">
+        <h1>🔒 Secret Message</h1>
+        <p>Enter the secret code to continue.</p>
+
+        <input type="password" id="passcode" placeholder="Enter passcode">
+        <button onclick="checkCode()">Unlock ❤️</button>
+
+        <p id="error"></p>
+    </div>
+</div>
+
+<!-- LETTER PAGE -->
+<div class="page" id="page2">
+    <div class="card letter">
+
+        <h1>💌 Dear You,</h1>
+
+        <p>
+            Before anything else, I just wanted to say thank you for
+            being such an amazing person.
+        </p>
+
+        <p>
+            Every conversation with you somehow becomes my favorite part
+            of the day. Whether we're laughing, talking about random
+            things, or just spending time together, you always make life
+            brighter.
+        </p>
+
+        <p>
+            Prom is supposed to be one of those unforgettable memories,
+            and honestly... I can't imagine making that memory with
+            anyone else.
+        </p>
+
+        <p>
+            You make me smile more than you probably realize, and I'd
+            really love the chance to spend that special night with you.
+        </p>
+
+        <p>
+            So... there's one more page waiting for you.
+        </p>
+
+        <button onclick="nextPage(3)">
+            Continue ❤️
+        </button>
+
+    </div>
+</div>
+
+<!-- QUESTION PAGE -->
+<div class="page" id="page3">
+    <div class="card">
+
+        <h1>🌹</h1>
+
+        <h2>Will you go to Prom with me?</h2>
+
+        <div class="buttons">
+            <button class="yes" onclick="nextPage(4)">
+                YES!! ❤️
+            </button>
+
+            <button class="no" id="noButton">
+                No
+            </button>
+        </div>
+
+    </div>
+</div>
+
+<!-- SUCCESS PAGE -->
+<div class="page" id="page4">
+
+<div class="card">
+
+<h1>🎉 YAY!! 🎉</h1>
+
+<h2>You just made me the happiest person ever ❤️</h2>
+
+<p>
+I seriously can't wait to make amazing memories together.
+It's going to be such a fun night, and I'm so excited to spend it with you.
+</p>
+
+<div class="heart">
+❤️ 💖 💕 💗 💓 💞
+</div>
+
+</div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
