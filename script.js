@@ -1,4 +1,4 @@
-const PASSWORD = "143";
+const PASSWORD = "0214";
 
 function checkCode(){
 
